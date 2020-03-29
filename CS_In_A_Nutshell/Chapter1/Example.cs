@@ -5,14 +5,13 @@ namespace Chapter1
     /// <summary>
     /// Example contain all variable type in .net framework
     /// </summary>
-    class Example
+    internal class Example
     {
-      
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Types of variable and inter-convertibility
 
