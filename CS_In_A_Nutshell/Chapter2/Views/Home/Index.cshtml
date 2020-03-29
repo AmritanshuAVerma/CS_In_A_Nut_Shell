@@ -2,26 +2,42 @@
     ViewData["Title"] = "Chapter 2";
 
     string verbatim = @"\localhost\home : Right";
+    var testCar = ViewBag.Car;
+    var testBike = ViewBag.Bike;
+
+
 }
 
 <h2>
-    <span> Verbatim : 
-           <pre> @@"String inside will not require escaping characters"</pre>
+    <span>
+        Verbatim :
+        <pre> @@"String inside will not require escaping characters"</pre>
     </span>
 
 </h2>
 
 
-    <Example>
-        <span>Example</span> :
-        <span style="color:red;"> String:- "\\\\localhost\\home" <b> :Wrong</b> </span>
-        <p style="color:green;">Verbatim :-  @verbatim </p>
+<Example>
+    <span>Example</span> :
+    <span style="color:red;"> String:- "\\\\localhost\\home" <b> :Wrong</b> </span>
+    <p style="color:green;">Verbatim :-  @verbatim </p>
 
-    </Example>
+</Example>
 
-    <Note>
-        <h4>Local Variables and parameters are stored in Stack (Stack is present till we don't exit the particular code block)</h4>
-        <h4>Objects are stored in Heap (It persists till it is cleared by the Garbage Collector)</h4>
-    </Note>
+<Note>
+    <h4>Local Variables and parameters are stored in Stack (Stack is present till we don't exit the particular code block)</h4>
+    <h4>Objects are stored in Heap (It persists till it is cleared by the Garbage Collector)</h4>
+</Note>
+<p>Collections used in the examples:-</p>
+<div>
+    @testBike
+</div>
+<div>
+    @testCar
+</div>
+<div>
+    @Model
+</div>
+
 
 
