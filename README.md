@@ -1,2 +1,8 @@
-# CS_In_A_Nut_Shell
-My Exampled from the book
+---
+description: Guide and Notes For learning Blazor
+---
+
+# Amrit-Blazor
+
+I have Started Learning Blazor as Angular looks too heavy for my needs.
+
