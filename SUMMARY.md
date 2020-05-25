@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Amrit-Blazor](README.md)
+* [Blazed Web](README.md)
 
